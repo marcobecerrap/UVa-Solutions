@@ -48,18 +48,9 @@ for II in range( TotalCases ):
         Output.sort()
         OutputString = "\n".join( Output ) + "\n"
     TotalOutputs.append( OutputString )
-    
-    # if( len( Output ) == 0 ):
-    #     TotalOutputs.append( "" )
-    # else:
-    #     Output.sort()
-    #     TotalOutputs.append( "\n".join( Output ) + "\n" )
 
 
 FinalOutput = "\n".join( TotalOutputs )
-# if( TotalOutputs[ -1 ] == "" ):
-#     FinalOutput += "\n"
-# print( FinalOutput, end = "" )
 print( FinalOutput, end = "" )
 
 
